@@ -2,6 +2,7 @@
 
 # Chaosblade-exec-cplus: Chaosblade executor for chaos experiments on c++ applications
 
+interact将expect的交互控制交给用户，go exec.Cmd认为命令执行结束，不会等待。
 
 ## Introduction
 The project is a chaosblade executor based on [GDB] for chaos 
